@@ -4,11 +4,15 @@
     $ npm run dev
   ```
   * use nvm to switch between versions
-    * curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-    * nvm install 18
-    * nvm use 18
-    * nvm list
-* play with arrow keys
+    ```shell
+     $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+     $ nvm install 18
+     $ nvm use 18
+     $ nvm list
+     ```
+* open `localhost:5137(or other port #)` to play with arrow keys
+
+![game action shot](images/screen_shot.png)
 
 # React + Vite
 

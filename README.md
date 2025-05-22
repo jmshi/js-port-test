@@ -11,6 +11,7 @@
      $ nvm list
      ```
 * open `localhost:5137(or other port #)` to play with arrow keys
+
 ![game action shot](images/screen_shot.png)
 
 # React + Vite

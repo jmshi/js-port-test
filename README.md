@@ -1,5 +1,6 @@
 
-# How to play
+# How to play - 1
+this is used the Vite Template:
 * ```shell
     $ npm run dev
   ```
@@ -13,6 +14,13 @@
 * open `localhost:5137(or other port #)` to play with arrow keys
 
 ![game action shot](images/screen_shot.png)
+
+# How to play - 2
+* one could also just download the app.js + index.html files at root directory and
+* ```shell
+  $ python -m http.server
+  ```
+  then go to localhost:8000 to play your game.
 
 # React + Vite
 

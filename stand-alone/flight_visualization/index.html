@@ -7,6 +7,8 @@
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <style>
         body { font-family: sans-serif; margin: 20px; display: flex; flex-direction: column; align-items: center; }
+        /* Add some margin to the new input/button div */
+        div > input[type="file"], div > button { margin-bottom: 15px; padding: 5px;}
         #heatmapContainer { width: 80%; height: 500px; margin-bottom: 20px; }
         #detailsContainer { width: 80%; }
         table { border-collapse: collapse; width: 100%; }
@@ -16,6 +18,10 @@
 </head>
 <body>
     <h1>Flight Performance Heatmap</h1>
+    <div>
+        <input type="file" id="csvFileInput" accept=".csv" />
+        <button id="loadDataButton">Load and Display Data</button>
+    </div>
     <div id="heatmapContainer"></div>
     <div id="detailsContainer"></div>
     <script src="script.js"></script></body>

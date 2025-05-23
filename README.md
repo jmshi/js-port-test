@@ -17,7 +17,7 @@ this is used the Vite Template:
 ![game action shot](images/screen_shot.png)
 
 # How to play - 2
-* one could also just download the app.js + index.html files at root directory and
+* one could also just download the app.js + index.html files from stand-alone folder and
 * ```shell
   $ python -m http.server
   ```

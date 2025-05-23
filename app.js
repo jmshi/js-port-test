@@ -1,7 +1,4 @@
-import React from "https://esm.sh/react@18";
-import ReactDOM from "https://esm.sh/react-dom@18";
-
-        const GameCanvas = () => {
+const GameCanvas = () => {
             const canvasRef = React.useRef(null);
             const [blocks, setBlocks] = React.useState([]);
             const [level, setLevel] = React.useState(0);

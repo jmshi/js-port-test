@@ -1,0 +1,31 @@
+flightId,name,pacingPercentage,budgetSpendingPercentage,timeProgressPercentage,campaignName,status
+FL001,Alpha Campaign Launch,75,60,50,Summer Sale 2024,Active
+FL002,Winter Promo Video Ads,30,25,30,Winter Clearout,Paused
+FL003,Q3 Brand Awareness,95,90,85,Brand Push Q3,Active
+FL004,New Product Teaser,15,10,20,Product X Intro,Active
+FL005,Holiday Special Email,60,50,55,Festive Deals,Completed
+FL006,Influencer Collab X,88,80,70,Influencer Wave 1,Active
+FL007,Influencer Collab Y,22,30,25,Influencer Wave 1,Active
+FL008,Website Retargeting,50,45,48,Retargeting EMEA,Active
+FL009,App Install Campaign,70,77,65,Mobile Growth,Active
+FL010,Search Ads - Core Terms,92,85,90,Search SEM Core,Active
+FL011,Search Ads - Long Tail,5,12,10,Search SEM Longtail,Active
+FL012,Display Network Reach,40,35,42,Display Q3,Active
+FL013,Social Media Contest,80,70,75,Engage & Win,Completed
+FL014,Video Preroll Ads,25,20,28,Video Series Ep1,Active
+FL015,Local Event Promotion,98,95,99,City Fair Booth,Active
+FL016,Another Flight,55,65,60,Test Campaign A,Active
+FL017,Flight Beta,7,8,5,Test Campaign B,Paused
+FL018,Flight Gamma,82,88,80,Major Push 1,Active
+FL019,Flight Delta,33,28,35,Minor Push 2,Active
+FL020,Flight Epsilon,66,58,62,Seasonal Ad Set,Completed
+FL021,Flight Zeta,12,18,15,Exploratory Ads,Active
+FL022,Flight Eta,91,93,89,High Performer Group,Active
+FL023,Flight Theta,48,52,50,Mid Tier Group,Active
+FL024,Flight Iota,28,32,30,Low Tier Group,Active
+FL025,Flight Kappa,73,68,70,Retargeting APAC,Active
+FL026,Flight Lambda,5,5,8,Micro Campaign 1,Active
+FL027,Flight Mu,99,98,97,End of Year Sale,Active
+FL028,Flight Nu,50,50,50,Balanced Approach,Active
+FL029,Flight Xi,20,80,30,Budget Heavy Test,Active
+FL030,Flight Omicron,80,20,75,Time Heavy Test,Active

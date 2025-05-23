@@ -10,6 +10,7 @@ this is used the Vite Template:
      $ nvm install 18
      $ nvm use 18
      $ nvm list
+     $ rm -rf node_modules/ && rm package-lock.json && npm i // try to rebuild
      ```
 * open `localhost:5137(or other port #)` to play with arrow keys
 

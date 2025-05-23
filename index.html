@@ -1,25 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React Sokoban Game</title>
     <style>
         body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; margin-top: 20px; background-color: #f0f0f0; }
         h1 { margin-bottom: 20px; }
         canvas { border: 1px solid black; background-color: white; }
-        div > div > h1 { margin-top: 20px; } 
-        div > div > button { padding: 10px 20px; font-size: 16px; margin-top: 10px; cursor: pointer; }
+        /* Centering for the game complete message and button */
+        div > div > h1 { margin-top: 20px; } /* Game complete H1 */
+        div > div > button { padding: 10px 20px; font-size: 16px; margin-top: 10px; cursor: pointer; } /* Restart button */
     </style>
-    <!-- Load React and ReactDOM UMD builds -->
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <!-- Load Babel Standalone for JSX transpilation -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root"></div>
-    <!-- app.js will use the global React and ReactDOM objects -->
-    <script type="text/babel" src="app.js"></script>
-</body>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
